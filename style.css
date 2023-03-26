@@ -1,0 +1,291 @@
+html{
+    background-color: black;
+    /* background-image: url('/Users/adibdomlog/Desktop/Portfolio/imgs/—Pngtree—black gold lines abstract background_1342910.png') */
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    gap: 30px;
+}
+nav{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:40px;
+    width:80%;
+    position: absolute;
+    right: 50px;
+    margin-left: 70px;  
+    
+}
+li{
+    color: white;
+    padding: 20px;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none ;
+    color: white;
+
+}
+li:hover{
+    cursor:alias;
+    color: black;
+    background-color: #CBA34B;
+    animation-duration: 2s;
+}
+footer{
+    /* position: absolute;
+    bottom: 0; */
+    background-color: black;
+    width: 100%;
+    left:0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.copyright{
+    color: white;   
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    background-image: url('/Users/adibdomlog/Desktop/Portfolio/imgs/—Pngtree—black gold lines abstract background_1342910.png');
+    height: 600px;
+}
+.Main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.index-content{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #AD974F; */
+    border-radius: 17px;
+    padding: 20px;
+    align-content: center;
+    /* justify-content: space-between; */
+    width: 100%;
+    margin-right: 100px;  
+}
+.logo{
+    z-index: 2;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* position: absolute;
+    right: 0; */
+    background-color: black;
+    width: 70%; 
+    align-items: center;
+}
+.group-project main{
+    padding: 20px;
+    border-radius: 17px;
+    background-color: #AD974F;     
+    
+}
+.main-container-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 100px;
+    /* background-color: #AD974F; */
+    padding: 20px;
+    border-radius: 17px;
+    width: 100%;
+    align-items: center;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+  }
+  
+  
+  .clock {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+  }
+  
+  .clock .number {
+    --rotation: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: rotate(var(--rotation));
+    font-size: 1.5rem;
+  }
+  
+  .clock .number1 { --rotation: 30deg; }
+  .clock .number2 { --rotation: 60deg; }
+  .clock .number3 { --rotation: 90deg; }
+  .clock .number4 { --rotation: 120deg; }
+  .clock .number5 { --rotation: 150deg; }
+  .clock .number6 { --rotation: 180deg; }
+  .clock .number7 { --rotation: 210deg; }
+  .clock .number8 { --rotation: 240deg; }
+  .clock .number9 { --rotation: 270deg; }
+  .clock .number10 { --rotation: 300deg; }
+  .clock .number11 { --rotation: 330deg; }
+  
+  .clock .hand {
+    --rotation: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform-origin: bottom;
+    z-index: 10;
+    transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+  }
+  
+  .clock::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    z-index: 11;
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+  
+  .clock .hand.second {
+    width: 3px;
+    height: 45%;
+    background-color: red;
+  }
+  
+  .clock .hand.minute {
+    width: 7px;
+    height: 40%;
+    background-color: black;
+  }
+  
+  .clock .hand.hour {
+    width: 10px;
+    height: 35%;
+    background-color: black;
+  }
+  .assignment-maincontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 100%;
+    margin-top: 100px;
+  }
+  .clock-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 80%;
+    background-color: #AD974F; 
+    border-radius: 17px;
+    padding: 20px;
+    gap: 40px;
+  }
+  .clock-description{
+    color: white;
+    width: 300px;
+  }
+  h1{
+    color: #AD974F;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+
+  }
+  h2{
+    color: white;
+  }
+  .text{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 20px;
+  }
+  .buttons_homepage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    
+  }
+  .button_homepage{
+    background-color: #AD974F;
+    padding: 20px;
+    width: 200px;
+    border-radius: 15px; 
+    color: white;
+    font-weight:400;
+  
+   }
+   .button_homepage a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+   }
+   .home_menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+   }
+   .subject_menus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px  ;
+   }
+   .subject_menu{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    border: solid 1px #AD974F;
+    padding: 20px;
+    gap: 10px;
+    justify-items: center;
+    align-content: center;
+    transition: transform .2s;
+   }
+   .submenu_title{
+    color: #AD974F;
+   }
+   .home_menus :hover{
+    transform: scale(1.2);
+   }
+   .groupworkimg{
+    margin-top:30px;
+   }
