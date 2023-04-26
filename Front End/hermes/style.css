@@ -1,0 +1,87 @@
+html{
+    
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width:fit-content
+}
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:30px;
+    margin-left: 100px;
+}
+header{
+    display: flex;
+    flex-direction: row;   
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 75px;
+}
+li :hover{
+
+}
+li{
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 200;
+}
+.rightside-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 175px;
+}
+.mijn_hermes{
+    display:flex;
+    flex-direction: row;
+}
+.main_container{
+    display: flex;
+    flex-direction: column;
+}
+.vanennaar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.red_container{
+    background-color: red;
+    /* margin-left: 200px; */
+}
+h1{
+    color: white;
+    font-weight: 100;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+h3{
+
+}
+.van{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;  
+    height: 70px; 
+    width: 300px;
+    height: 50px;
+}   
+.label-text{
+    font-weight: 100;
+    border-right: 0.5px solid;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.label{
+    padding: 15px;
+    font-weight: 75px;
+    
+}

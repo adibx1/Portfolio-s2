@@ -1,6 +1,6 @@
 html{
-    background-color: black;
-    /* background-image: url('/Users/adibdomlog/Desktop/Portfolio/imgs/—Pngtree—black gold lines abstract background_1342910.png') */
+    background-color: white;
+    background-image: url('/Users/adibdomlog/Desktop/Portfolio/imgs/—Pngtree—black gold lines abstract background_1342910.png')
 }
 body{
     display: flex;
@@ -63,7 +63,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
-    background-image: url('imgs/—Pngtree—black gold lines abstract background_1342910.png');
+    background-image: url('/Users/adibdomlog/Desktop/Portfolio/imgs/—Pngtree—black gold lines abstract background_1342910.png');
     height: 600px;
 }
 .Main-container{
@@ -289,3 +289,87 @@ ul{
    .groupworkimg{
     margin-top:30px;
    }
+   .UCD.header{
+    font-size: 48px;
+   }
+   .UCDbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+   .UCD_maincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .UCDbody {
+      margin-top: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: black; 
+    }
+    
+    .UCDmain {
+      margin: 20px;
+      margin-top: 100px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .UCDsection {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      padding: 20px;
+      display: flex;
+      flex-direction: row;
+      /* justify-content: space-between; */
+      gap: 300px;
+      width: min-content;   
+    }
+    
+    section h2 {
+      margin-top: 0;
+      color: #AD974F; /* added */
+    }
+    
+    p {
+      color: black; /* added */
+    }
+    
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    
+    li {
+      color: #AD974F; /* added */
+    }
+    
+    .button {
+      background-color: #AD974F;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .button:hover {
+      background-color: #000;
+      color: #fff;
+    }
+    .UCDinsection{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 400px;
+    }
+    .button{
+     width: 200px;
+    }
+    
